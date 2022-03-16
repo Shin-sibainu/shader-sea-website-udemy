@@ -11,10 +11,6 @@ module.exports = {
   resolve: {
     extensions: [".js", ".glsl", "vs", "fs"],
   },
-  performance: {
-    maxEntrypointSize: 800000,
-    maxAssetSize: 800000,
-  },
   module: {
     rules: [
       // HTML
